@@ -18,23 +18,27 @@ Heroku va vous renvoyez une configuration de ce genre là 'abc.herokudns.com.'
 
 ## Travail sur OVH
 
-Sur votre espace client ovh allez dans Domaines > example.com puis allez dans zone DNS
+Sur votre espace client ovh allez dans Domaines > example.com puis allez dans zone DNS.
 
-Commencez par faire un peu de ménage dans la Zone DNS en supprimant tous les Type 'TXT'
+Commencez par faire un peu de ménage dans la Zone DNS en supprimant tous les Type 'TXT'.
 
-Puis ajoutez une entrée
-Selectionnez CNAME
+Puis ajoutez une entrée.
+
+Selectionnez CNAME.
 
 Remplissez les cases de la manière suivante:
+
 Sous-domaine : www.example.com
+
 TTL : Par défaut
+
 cible: 'abc.herokudns.com.'
 
 Attention vous dezvez mettre un '.' à la fin de votre cible après le .com, c'est primordial!
 
-validez votre config
+Validez votre config
 
 ## Travail sur heroku
-allez dans le settings de votre app et si vous avez un compte hobby générez un SSL pour que votre site apparaisse comme sécurisé
+Allez dans le settings de votre app et si vous avez un compte hobby générez un SSL pour que votre site apparaisse comme sécurisé.
 
 Attendez quelques minutes et c'est bon vous pourrez enfin profitez de votre site www.example.com 
