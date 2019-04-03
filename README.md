@@ -36,7 +36,7 @@ TTL : Par défaut
 
 cible: 'abc.herokudns.com.'
 
-Attention vous dezvez mettre un '.' à la fin de votre cible après le .com, c'est primordial!
+Attention vous devez mettre un '.' à la fin de votre cible après le .com, c'est primordial!
 
 Validez votre config
 
