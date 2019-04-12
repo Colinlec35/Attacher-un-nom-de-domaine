@@ -52,8 +52,8 @@ Pour que http://www.example.com vous renvoie directement https://www.example.com
 Attention à ce qu'il n'y ai pas d'image sur votre home page qui proviennent de site exterieur en http, sinon cela risque de vous renvoyer des erreurs.
 
 
-## Obliger le Browser à afficher directement la page example.com en htpps
-Afin que vous ne soyez pas obliger de rentrer systématiquement le www. avant votre root domain vous pouvez faire la manip suivante dans heroku.
+## Obliger le Browser à afficher directement la page example.com en https
+Afin que vous ne soyez pas obliger de rentrer systématiquement le www. avant votre root domain vous pouvez faire la manip suivante dans OVH.
 
 1) Dans domaines/example.com/informations générales
 
