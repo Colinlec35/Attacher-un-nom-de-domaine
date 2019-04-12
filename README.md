@@ -45,7 +45,7 @@ Allez dans le settings de votre app et si vous avez un compte hobby générez un
 
 Attendez quelques minutes et c'est bon vous pourrez enfin profitez de votre site www.example.com 
 
-## Obliger les browser à renvoyer en htpps
+## Obliger les browser à renvoyer en https
 Pour que http://www.example.com vous renvoie directement https://www.example.com il suffit simple d'ajouter dans config/environments/production.rb
 `config.force_ssl = true` 
 
