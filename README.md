@@ -73,7 +73,9 @@ Au besoin relancez le certificat SSL (ou activez le)
 
 5) hébergements/example.com/FTP - SSH / FTP explorer
 
-Ajouter le nouveau fichier suivant (et enregistrez le)
+Rentrez vos coordonées de serveur transmis par mail par OVH + login et mot de passe afin de vous connecter (via FTP explorer) au serveur d'hébergement
+
+Ajoutez le nouveau fichier suivant (si besoin créez-le d'abord sur votre ordinateur puis uploadez-le)
 
 nom du fichier : `/www/.htaccess`
 
@@ -86,12 +88,6 @@ RewriteEngine On
 RewriteCond %{HTTP_HOST} !^www\.
 RewriteRule ^ https://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L,NE,QSA]
 ```
-
-6) Télécharger Filezilla
-
-Ici pour le lien https://filezilla-project.org/
-
-rentrez vos coordonées de serveur transmis par mail par ovh dedans et poussez le fichier `/www/.htaccess` que vous venez d'écrire
 
 
 Voilà normalement tout marche vous pouvez taper  http://example.com ou http://www.example.com ou encore https://example.com et vous arriverez systématiquement sur votre page https://www.example.com
